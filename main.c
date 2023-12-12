@@ -9,6 +9,8 @@ struct student
 
 int main()
 {
+
+    // This code is to take input data from the user 
     int num_students;
     printf("How many students data do you want to enter\n");
     scanf("%d", &num_students);
@@ -28,6 +30,7 @@ int main()
         }
     }
 
+    // this code is to print the data entered fromt the user
     printf("\n\nPrinting the details of the entered students\n\n");
     for (int i = 0; i < num_students; i++)
     {
